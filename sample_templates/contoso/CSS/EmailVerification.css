@@ -1,0 +1,190 @@
+html {
+    background: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:   #B0B0B0;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #B0B0B0;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:   #B0B0B0;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #B0B0B0;
+}
+
+.attrEntry input:invalid {
+    outline: 0;
+}
+
+.attrEntry.validate input:invalid 
+ {
+    outline: red solid 2px;
+}
+
+.helpText {
+    display: none;
+}
+
+.helpText.show{
+    display: inline-block;
+	font-size: small;
+    color: red;
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.tiny {
+	display:none;
+}
+
+.buttons.verify button{
+	width: 200px;
+	margin-left: 0%;	
+	margin-bottom: 100px;
+}
+
+#api p{
+	margin-left: 35px;
+	font-size: medium;
+	color: white;
+}
+
+#continue{
+	margin-left: 35px;
+}
+
+body {
+  background-image: url("../Images/WindMills.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+
+#logo{
+	position:absolute;
+	left: 39.5%;
+    top: 5%;
+}
+
+#logo img{
+    width: 50px;
+    height: 50px;    
+	float: left;
+}
+
+#logoTitle{
+	font-size: 50px;
+	color: #00CCFF;
+}
+
+#api{
+	position:absolute;
+	left: 37.5%;
+	top: 20%;
+	color:#FF9900;
+}
+
+.attrEntry input:focus, .attrEntry input[autofocus] {
+	background-color: transparent;
+    border-color: transparent;
+}
+
+.attrEntry input{
+    padding: 0;
+    height: 20%;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;   
+    font-size: 16px;
+	color : whitesmoke;
+	display: block;
+	background-color: transparent;
+    border-color: transparent;
+	border-bottom-color: white;
+	width: 220px;
+}
+
+.attrEntry input[type=text] {
+    padding: 0;
+    height: 20%;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;   
+    font-size: 16px;
+	color : whitesmoke;
+	display: block;
+	background-color: transparent;
+    border-color: transparent;
+	border-bottom-color: white;
+	border-radius: 0px;
+	box-shadow: none;
+}
+
+.dropdown_single {
+    background-color: transparent;
+    border: 1px solid #cdcdcd;
+    width: 220px;
+    padding: 0;
+	color: #B0B0B0;
+    font-size: 16px;
+    border-color: transparent;
+	border-bottom-color: white;
+	box-shadow: none;
+}
+
+#email_ver_input_label{
+	display: none !important;
+}
+
+#email_ver_input[style="display: inline;"]{
+	display: block !important;
+	margin-bottom: 4px;
+}
+
+label {
+  display: none;
+}
+
+#api ul{
+	list-style-type: none;
+}
+
+#api li{
+	padding-bottom: 35px;
+}
+
+button{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  float: left;
+}
+
+button:hover{
+   background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  text-decoration: none;
+}
