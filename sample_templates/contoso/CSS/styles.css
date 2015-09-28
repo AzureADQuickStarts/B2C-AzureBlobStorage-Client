@@ -9,6 +9,10 @@ body {
   text-align: left;
 }
 
+.intro {
+	padding: 0px 56px !important;	
+}
+
 button {
 font-size: 18px;
 border: 2px solid #AD235E;
@@ -19,8 +23,8 @@ height: 150px;
 
 #logo{
 	position:absolute;
-	left: 42.5%;
-    top: 19%;
+	left: 815px;
+    top: 200px;
 }
 
 #logo img{
@@ -79,8 +83,8 @@ height: 150px;
 
 #api{
 	position:absolute;
-	top: 30%;
-    left: 40%;
+	top: 330px;
+    left: 760px;
 }
 
 .intro {

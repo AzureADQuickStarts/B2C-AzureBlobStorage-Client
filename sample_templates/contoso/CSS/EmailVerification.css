@@ -49,13 +49,13 @@ html {
 }
 
 #api p{
-	margin-left: 35px;
+	margin-left: 39.5px;
 	font-size: medium;
 	color: white;
 }
 
 #continue{
-	margin-left: 35px;
+	margin-left: 39px;
 }
 
 body {
@@ -67,8 +67,8 @@ body {
 
 #logo{
 	position:absolute;
-	left: 39.5%;
-    top: 5%;
+	left: 762px;
+    top: 80px;
 }
 
 #logo img{
@@ -84,8 +84,8 @@ body {
 
 #api{
 	position:absolute;
-	left: 37.5%;
-	top: 20%;
+	left: 722px;
+	top: 215px;
 	color:#FF9900;
 }
 
@@ -149,7 +149,7 @@ body {
 }
 
 label {
-  display: none;
+  display: none !important;
 }
 
 #api ul{
